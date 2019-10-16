@@ -10,8 +10,9 @@ header
    height: 100px;
    line-height: 100px;
    text-align: center;
-   font-family: inherit;
-
+   font-family: fantasy;
+   margin: 3px;
+   padding: 3px;
 }
 nav
 {
@@ -56,33 +57,39 @@ section table
 }
 section article
 {
-  font-family: cursive;
+  font-family: fantasy;
   font-size: 15px;
   color: black;
+  text-align: justify;
+}
+section article h3
+{
+  text-align: center;
 }
 section table, th, td
 {
   text-align: center;
   background-color: peachpuff;
 }
-div table, th, td
+section table article div table, th, td
 {
   border: 1px solid black;
   text-align: center;
+  font-family: fantasy;
   padding: 5px;
   margin: 5px;
 }
-div table
+section table article div table
 {
-  float: left;
+  margin-left: 30%;
 }
-div th
+section table article div th
 {
   font-weight: bold;
   background-color: sienna;
 
 }
-div td
+section table article div td
 {
  background-color: peachpuff;
 }
@@ -94,8 +101,10 @@ footer
 {
    background-color: sienna;
    text-align: center;
-   font-family: inherit;
-   height: 100px;
-   line-height: 100px;
+   font-family: fantasy;
+   height: 180px;
+   width: 150%
    margin-top: auto;
+   padding: 15px;
+   margin: 3px;
 }
